@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kakeru Matsushita's Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        
+        <section id="introduction">
+            <img src="images/kakeru.png" alt="私のアイコン" width="256" height="256">
+            <h1>松下 翔(まつした かける)</h1>
+            <p>
+                〇競技プログラミングをしています。AtCoder 水色です 
+                <p id="performance">
+                    水色は、アルゴリズムの絡んだ開発が特技と呼べるような水準です。アルゴリズムの豊富な知識に加え、典型的な課題の言い換えも把握し始めており、多くの複雑な問題をアルゴリズム的な処理に落とすことが出来ます。
+                    かなりのコーディング速度があります。課題を見てからロジックを考えるまでが早いので、上流工程において、ロジックをイメージしながら会話をする能力も高い事が想定されます。(参考:
+                    <a href="https://info.atcoder.jp/utilize/jobs/rating-business-impact" target="_blank">Algorithm部門のレーティングと業務における期待できる活躍</a>)
+                </p>
+                
+            </p>
+            <p>
+                〇学部生時代には競技プログラミング部にも所属していました。毎週の部内コンテスト&感想戦に加え、長期休暇中の勉強会なども開催し、チーム全員でプログラミングスキルの向上を目指し活動を行っていました。<br>
+                <p>・国際大学対抗プログラミングコンテスト(ICPC) 2021 国内予選 38位/254チーム(予選突破) <p>
+                <p>・国際大学対抗プログラミングコンテスト(ICPC) 2022国内予選 48位/283チーム(予選突破) <p>
+            </p>
+            <p>
+                〇Webサービスを作る楽しさに目覚め、HTML/CSS/Javascriptの勉強を行っています。まだまだ勉強中の身ですが少しでもアウトプットをしておこうと考え、このポートフォリオサイトを作りました。
+                現在は、メディアクエリーによるレスポンシブ対応や、JavaScriptでサイトから作成物の追加ができるようにしています。今後PHP等のバックエンドの言語を勉強し、本格的なWebサイトにアップデートしていきたいと考えています。
+
+            </p>
+        </section>
+        
+    </header>
+    <main>
+        <h2>制作物</h2>
+        <ul class="works">
+            <li class="work">
+                <a href="works/MyStopWatch/index.html" target="_blank">
+                    <img src="images/stopwatch.png" alt="作品の画像" width="128" height="128">
+                    <h3>ストップウォッチ</h3>
+                    <p>簡易的なストップウォッチです。setTimeout関数を用いてスタートからの経過時間を10ミリ秒ごとに表示しています。</p>
+                </a>
+            </li>
+            <li class="work">
+                <a href="works/MyCalender/index.html" target="_blank">
+                    <img src="images/calendar.png" alt="作品の画像" width="128" height="128">
+                    <h3>カレンダー</h3>
+                    <p>今日の日付は太字、土日は色をつけて表示されるカレンダーです。前月の最後や翌月の最初の日は薄くしているのですが、表示する方法の実装が難しかったです。</p>
+                </a>
+            </li>
+            <li class="work">
+                <a href="works/MyNumberGame/index.html" target="_blank">
+                    <img src="images/numberGame.png" alt="作品の画像" width="128" height="128">
+                    <h3>数字クリックゲーム</h3>
+                    <p>0から順番に数字を選んでいくゲームです。一つ一つの数字や、数字を表示するボード、さらにゲームそのものをクラスにまとめています。オブジェクト指向のカプセル化のちょっとした練習になりました。</p>
+                </a>
+            </li>
+            <li class="work">
+                <a href="works/MyOmikuji/index.html" target="_blank">
+                    <img src="images/omikuji.png" alt="作品の画像" width="128" height="128">
+                    <h3>おみくじ</h3>
+                    <p>クリックしたら大吉、小吉等が表示されるだけのものです。ランダム関数の練習になりました。</p>
+                </a>
+            </li>
+            <li class="work">
+                <a href="works/MyTypingGame/index.html" target="_blank">
+                    <img src="images/typing.png" alt="作品の画像" width="128" height="128">
+                    <h3>タイピングゲーム</h3>
+                    <p>表示された文字をタイピングしていくゲームです。初めて作ったゲームなので簡素な作りですが、自分が練習したいワードのプリセットを作って練習ができるようにしても面白いなと考えています。</p>
+                </a>
+            </li>
+        </ul>
+        <div class="add">
+            <input type="text" placeholder="リンク先" class="input inputLink">
+            <input type="text" placeholder="タイトル" class="input inputTitle">
+            <input type="text" placeholder="説明" class="input inputExplanation">
+            <button class="btn">追加</button>
+        <div>
+    </main>
+    <footer>
+        
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
