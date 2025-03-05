@@ -11,7 +11,7 @@ header{
 }
 
 #introduction{
-    width: 800px;
+    max-width: 800px;
     margin:0 auto;
 }
 
@@ -39,7 +39,7 @@ h2{
     justify-content: space-between;
     padding:0;
     gap:32px;
-    width:800px;
+    max-width:800px;
     margin:0 auto;
 }
 
@@ -76,7 +76,7 @@ footer{
     background: lightgray;
 }
 .add{
-    width:800px;
+    max-width:800px;
     margin:0 auto;
 }
 .input{
@@ -102,4 +102,29 @@ button{
 
 footer{
     margin-top:12px;
+}
+
+@media (max-width:800px){
+   
+    #introduction{
+        width:80%;
+    }
+    .works{
+        display:block;
+        width:80%;
+        margin:0 auto;
+    }
+    .work{
+        width:100%;
+        margin:0 auto;
+    }
+    .input{
+        margin:32px auto;
+    }
+    .add{
+        width:80%;
+    }
+    button{
+
+    }
 }
