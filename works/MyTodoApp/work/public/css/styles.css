@@ -1,0 +1,35 @@
+@charset "utf-8";
+body{
+    width:800px;
+    margin:0 auto;
+}
+ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+.done{
+    text-decoration: line-through;
+    color:#ccc;
+}
+li{
+    display: flex;
+    margin-bottom:4px;
+}
+
+.delete{
+    color:#ccc;
+    cursor: pointer;
+}
+input[type="checkbox"]{
+    margin-right:8px;
+    
+}
+input[type="text"]{
+    width:100%;
+    padding:4px;
+    margin-bottom:4px;
+}
+.del-form{
+    margin-left:auto;
+}
